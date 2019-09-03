@@ -1763,6 +1763,18 @@ input, select, textarea {
 
 		}
 
+		.skill-icon {
+			font-size: 9vh;
+		}
+
+		.skill-icon-box {
+			min-height: 15vh;
+			align-items: center;
+			justify-content: center;
+			margin: auto;
+			text-align: center;
+		}
+
 /* Section/Article */
 
 	section.special, article.special {

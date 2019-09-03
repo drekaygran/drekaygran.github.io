@@ -36,6 +36,10 @@
 			top: 0.25em;
 		}
 
+		&.headshot {
+			border-radius: 100%;
+		}
+
 		&.fit {
 			display: block;
 			margin: 0 0 _size(element-margin) 0;
