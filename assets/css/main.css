@@ -1764,7 +1764,7 @@ input, select, textarea {
 		}
 
 		.skill-icon {
-			font-size: 9vh;
+			font-size: 10vh;
 		}
 
 		.skill-icon-box {
@@ -2177,6 +2177,9 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+		.image.headshot {
+			height: 
+		}
 
 		.image img {
 			display: block;

@@ -59,8 +59,7 @@
 						<li><a href="#contact-me" class="scrolly">Contact</a></li>
 					</ul>
 					<ul class="actions stacked">
-						<li><a href="#" class="button primary fit">Get Started</a></li>
-						<li><a href="#" class="button fit">Log In</a></li>
+						<li><a title="Resume" href="GranberyResume.pdf" target="_blank" style="border-bottom: none;"><span class="button">View My Resume</span></a></li>
 					</ul>
 				</nav>
 
@@ -72,7 +71,7 @@
 								<h1>Hi, I'm Andrea Granbery</h1>
 							</header>
 							<div class="content">
-								<p>As a software engineer with a background in teaching and non-profits, I'm excited to contribute to a team by offering perseverance, attention to detail, and love for efficiency to build powerful web applications and make the world a better place.</p>
+								<p>As a Software Engineer with a background in teaching and non-profits, I'm excited to contribute to a team by offering perseverance, attention to detail, and love for efficiency to build powerful web applications and make a positive impact on my community.</p>
 								<ul class="actions">
 									<li><a href="#projects" class="button next scrolly">Check out my projects!</a></li>
 								</ul>
@@ -85,37 +84,39 @@
 			<div id="main">
 				<!-- One -->
 				<section id="one" class="tiles">
-					<!-- first row/group project -->
+					<!-- first row/capstone project -->
 					<article>
 						<span class="image">
-							<img src="images/eat-up.png" alt="eat up group project" />
-						</span>
-						<header class="major">
-							<h3><a href="https://team-cbam.github.io/eat-up-client/" target="_blank" class="link">Group project</a></h3>
-							<p>Checkout the live site here</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="images/pic02.jpg" alt="eat up" />
+							<img src="images/pic02.jpg" alt="Explore Eastie Github" />
 						</span>
 						<header class="major">
 							<h3>Github Repositories</h3>
 							<p>
-							<a href="https://github.com/team-cbam/eat-up-client" target="_blank" class="btn btn-default">Front End Code</a>
+							<a href="https://github.com/drekaygran/explore-eastie" target="_blank" class="btn btn-default">Front End Code</a>
 							<br>
-							<a href="https://github.com/team-cbam/eat-up-backend" target="_blank" class="btn btn-default">Back End Code</a>
+							<a href="https://github.com/drekaygran/explore-api" target="_blank" class="btn btn-default">Back End Code</a>
 							</p>
+						</header>
+					</article>
+					<article>
+						<span class="image">
+							<img src="images/explore-eastie.png" alt="Explore Eastie App" />
+						</span>
+						<header class="major">
+							<h3><a href="https://drekaygran.github.io/explore-eastie/#/" target="_blank" class="link">Explore Eastie</a></h3>
+							<h4>Checkout the live site here</h4>
+							<p>Designed and built a full-stack web application using React and Rails for sharing and finding great spots in the East Boston neighborhood with an interactive map for each place.</p>
 						</header>
 					</article>
 					<!-- second row camp roster -->
 					<article>
 						<span class="image">
-							<img src="images/camp-roster.png" alt="" />
+							<img src="images/camp-roster.png" alt="Camp Roster Project" />
 						</span>
 						<header class="major">
 							<h3><a href="https://drekaygran.github.io/camp-roster-client/" target="_blank"  class="link">Camp Roster</a></h3>
-							<p>Checkout the live site here</p>
+							<h4>Checkout the live site here</h4>
+							<p>Built a full-stack web application to track data on summer camp enrollments using a Rails API back-end. Created the front-end to make requests to the server and render results using Handlebars.</p>
 						</header>
 					</article>
 					<article>
@@ -134,15 +135,6 @@
 					<!-- third row tic tac toe -->
 					<article>
 						<span class="image">
-							<img src="images/tic-tac-toe.png" alt="tic tac toe" />
-						</span>
-						<header class="major">
-							<h3><a href="https://drekaygran.github.io/tic-tac-toe/" target="_blank"  class="link">Tic Tac Toe Game</a></h3>
-							<p>Checkout the live site here</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
 							<img src="images/pic06.jpg" alt="" />
 						</span>
 						<header class="major">
@@ -151,21 +143,16 @@
 							<p>Take a look at the code on GitHub</p>
 						</header>
 					</article>
-					</section>
-
-					<!-- resume -->
-					<section id="two">
-						<div class="inner">
-							<header class="major">
-								<h2>Resume</h2>
-							</header>
-							<div class="embed-responsive embed-responsive-4by3 m-1 px-3 w-100">
-							  <iframe class="embed-responsive-item" src="/GranberyResume.pdf" allowfullscreen></iframe>
-							</div>
-							<ul class="actions">
-								<li><a href="/GranberyResume.pdf" title="Resume Download" download="GranberyResume.pdf" class="button next">Download Resume</a></li>
-							</ul>
-						</div>
+					<article>
+						<span class="image">
+							<img src="images/tic-tac-toe.png" alt="tic tac toe" />
+						</span>
+						<header class="major">
+							<h3><a href="https://drekaygran.github.io/tic-tac-toe/" target="_blank"  class="link">Tic Tac Toe Game</a></h3>
+							<h4>Checkout the live site here</h4>
+							<p>Designed front-end web application using JavaScript and jQuery for the game engine. Interacted with API to make updates to games and track user authentication and progress.</p>
+						</header>
+					</article>
 					</section>
 
 					<!-- Skills -->
@@ -176,79 +163,80 @@
 						</header>
 					  <div class="row">
 					    <div class="mx-auto col-3">
-								<div class="skill-icon-box"><i title="Javascript" class="skill-icon p-5 devicon-javascript-plain"></i></div>
+								<div class="skill-icon-box"><i title="Javascript" alt="Javascript" class="skill-icon p-5 devicon-javascript-plain"></i></div>
 						    <div class="skill-icon-box"><i title="HTML5" class="skill-icon devicon-html5-plain-wordmark"></i></div>
-								<div class="skill-icon-box"><i title="Rails" class="skill-icon devicon-rails-plain-wordmark"></i></div>
 								<div class="skill-icon-box"><i title="CSS" class="skill-icon devicon-css3-plain-wordmark"></i></div>
 								<div class="skill-icon-box"><i title="SASS" class="skill-icon devicon-sass-original"></i></div>
+								<div class="skill-icon-box"><i title="Ruby" class="skill-icon devicon-ruby-plain-wordmark"></i></div>
 							</div>
 							<div class="mx-auto col-3">
-						    <div class="skill-icon-box"><i title="Ruby" class="skill-icon devicon-ruby-plain-wordmark"></i></div>
-								<div class="skill-icon-box"><i title="MongoDB" class="skill-icon devicon-mongodb-plain-wordmark"></i></div>
-								<div title="SQL" class="skill-icon skill-icon-box">SQL</div>
-								<div class="skill-icon-box"><i title="Github" class="skill-icon devicon-github-plain-wordmark"></i></div>
-							</div>
-							<div class="mx-auto col-3">
-								<div class="skill-icon-box"><i title="Git" class="skill-icon devicon-git-plain-wordmark"></i></div>
-						    <div class="skill-icon-box"><i title="jQuery" class="skill-icon devicon-jquery-plain-wordmark"></i></div>
-						    <div class="skill-icon-box"><i title="PostgreSQL" class="skill-icon devicon-postgresql-plain-wordmark"></i></div>
-								<div class="skill-icon-box"><i title="Heroku" class="skill-icon devicon-heroku-original-wordmark"></i></div>
-							</div>
-							<div class="mx-auto col-3">
-								<div class="skill-icon-box"><i title="Amazon Web Service" class="skill-icon devicon-amazonwebservices-plain-wordmark"></i></div>
-						    <div class="skill-icon-box"><i title="Express" class="skill-icon devicon-express-original-wordmark"></i></div>
 								<div class="skill-icon-box"><i title="React" class="skill-icon devicon-react-original-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="jQuery" class="skill-icon devicon-jquery-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="Amazon Web Service" class="skill-icon devicon-amazonwebservices-plain-wordmark"></i></div>
 								<div class="skill-icon-box"><i title="Bootstrap" class="skill-icon devicon-bootstrap-plain-wordmark"></i></div>
+							</div>
+							<div class="mx-auto col-3">
+								<div class="skill-icon-box"><i title="Rails" class="skill-icon devicon-rails-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="PostgreSQL" class="skill-icon devicon-postgresql-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="MongoDB" class="skill-icon devicon-mongodb-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="Express" class="skill-icon devicon-express-original-wordmark"></i></div>
+							</div>
+							<div class="mx-auto col-3">
+								<div class="skill-icon-box"><i title="Github" class="skill-icon devicon-github-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="Atom" class="skill-icon devicon-atom-original-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="Git" class="skill-icon devicon-git-plain-wordmark"></i></div>
+								<div class="skill-icon-box"><i title="Heroku" class="skill-icon devicon-heroku-original-wordmark"></i></div>
 							</div>
 						</div>
 					</div>
 				</section>
 					<!-- contact me -->
-				<section id="contact">
-					<a name="contact-me"></a>
-					<div class="inner">
-						<section>
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-envelope"></span>
-									<h3>Email</h3>
-									<a href="mailto:akgranbery@gmail.com">akgranbery@gmail.com</a>
+			<section id="contact">
+				<a name="contact-me"></a>
+				<div class="inner">
+					<section class="container-fluid">
+							<section class="row">
+								<div class="col-6 d-flex justify-content-center contact-method">
+									<a href="mailto:akgranbery@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a>
+									<h4><a href="mailto:akgranbery@gmail.com">Email</a></h4>
+								</div>
+								<div class="col-6 contact-method">
+									<a href="tel:704-962-9120" class="icon solid alt fa-phone"><span class="label">Phone</span></a>
+									<h4><a href="tel:704-962-9120">Phone</a></h4>
 								</div>
 							</section>
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-phone"></span>
-									<h3>Phone</h3>
-									<a href="tel:704-962-9120">(704) 962-9120</a>
+							<section class="row">
+								<div class="col-6 contact-method">
+									<a href="https://www.linkedin.com/in/drekaygran/" target="_blank" class="icon brands alt fa-linkedin-in">
+										<span class="label">LinkedIn</span>
+									</a>
+									<h4><a href="https://www.linkedin.com/in/drekaygran/" target="_blank">LinkedIn</a></h4>
+								</div>
+								<div class="col-6 contact-method">
+									<a href="https://github.com/drekaygran" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a>
+									<h4><a href="https://github.com/drekaygran" target="_blank">GitHub</a></h4>
 								</div>
 							</section>
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-home"></span>
-									<h3>Location</h3>
-									<span>Boston, MA<br />
-										United States of America</span>
+							<div class="row contact-method">
+								<a title="Resume" href="GranberyResume.pdf" target="_blank" style="border-bottom: none;"><span class="button large">View My Resume</span></a>
+							</div>
+					</section>
+					<section class="split">
+						<section class="container" id="two">
+							<section class="row">
+								<div class="image col contact-method">
+									<a href="mailto:akgranbery@gmail.com">
+										<header class="major">
+											<p>Thanks for stopping by. Let's connect!</p>
+										</header>
+										<img style="border-radius:100%;max-width:70%" class="headshot image" alt="granbery_headshot" src="images/linkedinphoto.jpg" />
+									</a>
 								</div>
 							</section>
-						</section>
-						<section class="split">
-							<section>
-								<div class="contact-method">
-									<a href="https://github.com/drekaygran" class="icon brands alt fa-github"><span class="label">GitHub</span></a>
-								</div>
-								<br />
-								<div class="contact-method">
-									<a href="https://www.linkedin.com/in/drekaygran/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
-								</div>
-								<section>
-									<div class="image contact-method">
-										<img class="headshot" alt="granbery_headshot" src="images/linkedinphoto.jpg" />
-									</div>
-								</section>
 						</section>
 					</section>
-				</section>
-			</div>
+				</div>
+			</section>
 
 			<!-- Footer -->
 					<footer id="footer">
